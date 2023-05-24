@@ -1,0 +1,141 @@
+.animation_1 {
+  animation: image1Rotate 0.5s linear;
+  animation-delay: 0.3s;
+}
+
+@keyframes image1Rotate {
+  0% {
+    transform:  rotate(0deg);
+  }
+  50% {
+    transform: rotate(90deg) scale(4);
+    filter: brightness(0.3);
+  }
+  100%{
+    opacity: 1;
+    transform: rotate(180deg) scale(2);
+  }
+}
+
+.animation_2 {
+  animation: image2Rotate 0.5s linear;
+  animation-delay: 0.2s;
+}
+@keyframes image2Rotate {
+  0% {
+    transform: translateY(-8%) rotate(0deg) ;
+  }
+  50% {
+    transform: translateY(-8%) rotate(90deg) scale(3);
+  }
+  100%{
+    transform: translateY(-8%) rotate(180deg);
+  }
+}
+.animation_3 {
+  animation: image3Rotate 0.5s linear;
+  animation-delay: 0.05s;
+}
+@keyframes image3Rotate {
+  0% {
+    transform: translateX(-30.05%) translateY(-15%) rotate(0deg);
+  }
+  50% {
+    transform: translateX(-30.05%) translateY(-15%) rotate(90deg) scale(2);
+    filter: brightness(0.3);
+  }
+  100%{
+    transform: translateX(-30.05%) translateY(-15%) rotate(180deg);
+  }
+}
+
+.animation_title {
+  animation: animationTitle 0.2s linear;
+  animation-delay: 0.3s;
+}
+@keyframes animationTitle {
+  100% {
+    transform: translateY(-100%) rotateX(80deg);
+    opacity: 0;
+  }  
+}
+
+.animation_title_def {
+  animation: animationTitleDefault 0.2s linear;
+}
+@keyframes animationTitleDefault {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.animation_sub-title {
+  animation: animationSubTitle 0.2s linear;
+  animation-delay: 0.3s;
+}
+@keyframes animationSubTitle {
+  100% {
+    transform: translateY(100%);
+    opacity: 0;
+  }  
+}
+
+.animation_sub-title_def {
+  animation: animationSubTitleDefault 0.2s linear;
+}
+@keyframes animationSubTitleDefault {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%);
+
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@keyframes discoverButton {
+  0% {
+    transform: translateX(-50%) translateY(-50%) scale(0);
+  }
+
+  25% {
+    transform: translateX(-50%) translateY(-50%) scale(1);
+  }
+  40% {
+    transform: translateX(-50%) translateY(-50%) scale(0);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) scale(0);
+  }
+}
+
+@keyframes rotateButtonClick {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotateButton {
+  0% {
+    transform: translateX(-50%) translateY(-50%) scale(1);
+  }
+
+  25% {
+    transform: translateX(-50%) translateY(-50%) scale(2);
+  }
+  40% {
+    transform: translateX(-50%) translateY(-50%) scale(1);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) scale(1);
+  }
+}

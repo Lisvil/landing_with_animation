@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script src="https://kit.fontawesome.com/c90090fe62.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Test</title>
+  <script src="libs/gsap/gsap.min.js" defer></script>
+  <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+  <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+  <script src="js/places.js" defer></script>
+  <script src="js/index.js" defer></script>
+
+</head>
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <header class="header">
+        <div class="header__menu"><i class="fa-solid fa-bars"></i></div>
+        <div class="header__logo">DISCOVER</div>
+        <div class="header__search"><i class="fa-solid fa-magnifying-glass"></i></div>
+      </header>
+      <div class="share__btn">
+        <span>Share</span><i class="fa-solid fa-share-nodes"></i>
+      </div>
+      <section class="poster">
+        <img id="img1" src="">
+        <div class="poster__img2">
+          <img id="img2" src="">
+        </div>
+        <div class="poster__img3">
+          <img id="img3" src="">
+        </div>
+        <div class="poster__info">
+          <h1 class="poster__title">Highlands</h1>
+          <div class="poster__line"></div>
+          <p class="poster__text">Schotland</p>
+          <div class="poster__details">
+            <div>Text1</div>
+            <div>Text2</div>
+          </div>
+        </div>
+        <div class="poster__bottom">
+          <div class="poster__bottom_button">
+            <a href="#description" id="more_btn">discover the destination </a>
+          </div>
+          <div class="poster__bottom_rotate rotate__button">
+            <div>Change destination</div>
+            <button id="rotate_btn"><i class="fa-solid fa-rotate"></i> <span></span></button>
+          </div>
+        </div>
+      </section>
+      <section id="description" class="description__container">
+        <div class="bg"></div>
+        <div class="back_btn"><a href="#">Back</a></div>
+        <div class="description">
+          <h2 class="description__title"></h2>
+          <div class="description__line"></div>
+          <div class="description__block block-left">
+            <div class="description__block-images">
+              <img src="" alt="img1" class="description__block-img1">
+              <img src="" alt="img2" class="description__block-img2">
+            </div>
+            <div class="description__block-info">
+              <h4 class="description__block-title">Title</h4>
+              <p class="description__block-text"></p>
+            </div>
+          </div>
+          <div class="description__block block-right">
+            <div class="description__block-info">
+              <h4 class="description__block-title">Title</h4>
+              <p class="description__block-text"></p>
+            </div>
+            <div class="description__block-images">
+              <img src="" alt="img1" class="description__block-img1">
+              <img src="" alt="img2" class="description__block-img2">
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
+
